@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // ---------------------- temporizador -------------------------
 function updateTimer() {
-  const targetDate = new Date("december 7, 2026 22:30:00").getTime();
+  const targetDate = new Date("december 7, 2026 21:30:00").getTime();
   const currentDate = new Date().getTime();
   const timeRemaining = targetDate - currentDate;
 
